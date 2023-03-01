@@ -16,7 +16,7 @@ spec:
            pathType: Prefix
            backend:
              service:
-              name: {{ include "httpbin.fullname" . }}
+              name: {{ include "httpbin.fullname" $ }}
               port:
                 number: {{ $.Values.service.externalPort }}
     {{- end }}
