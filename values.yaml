@@ -13,7 +13,6 @@ environment: ''
 eso:
   secretStoreKind: ClusterSecretStore
   secretStoreName: aws-parameter-store
-  regcredPath: /k8s/
 image:
   repository: kong/httpbin
   version: latest
