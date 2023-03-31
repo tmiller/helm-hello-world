@@ -15,7 +15,7 @@ eso:
   secretStoreName: aws-parameter-store
 image:
   repository: kong/httpbin
-  version: latest
+  version: 0.1.0
   pullPolicy: Always
 
 service:
